@@ -1,0 +1,120 @@
+//@import "compass/reset";
+
+@import "base.scss";
+@import "page.scss";
+
+body, html{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+  a{
+    &:hover{
+      text-decoration: none;
+    }
+    &:focus{
+      text-decoration: none;
+    }
+    &:active{
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+
+
+ng-view{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+
+.main{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav{
+
+  position: absolute;
+  margin-bottom: 0;
+
+  ul{
+    list-style: none;
+    margin: 0;
+  }
+
+  li{
+    cursor: hand; cursor: pointer;
+  }
+
+  .divider{
+    border-top: 1px solid #333;
+  }
+
+  a{
+    display: block;
+    color: #999;
+    padding: 15px 25px;
+
+
+    &:hover{
+      background: #333;
+    }
+
+    &.active{
+      background: $peterriver;
+      color: #ffffff;
+    }
+  }
+
+}
+
+.pri-nav{
+
+  width: $pri-nav-width;
+  background: #191818;
+  bottom: 0;
+  top: 0;
+
+  .brand{
+    a{
+      color: #fff;
+      font-size: 15px;
+    }
+  }
+
+  ul{
+    margin: 0;
+  }
+
+  li{
+    list-style: none;
+  }
+
+}
+
+
+
+.sec-nav{
+
+  border-left: 1px solid #ddd;
+  background: $clouds;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: $sec-nav-width;
+
+  .nav{
+    margin: 0;
+  }
+
+
+
+}
