@@ -21,11 +21,11 @@ body, html{
   }
 }
 
-ng-view{
+.page-wrap{
   position: absolute;
   height: 100%;
   width: 100%;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .main{
@@ -38,7 +38,7 @@ ng-view{
 
 .nav{
 
-  position: absolute;
+  position: fixed;
   margin-bottom: 0;
 
   ul{

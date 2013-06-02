@@ -2,6 +2,9 @@
 
   margin-left: $pri-nav-width;
   margin-right: $sec-nav-width;
+  overflow: scroll;
+  height: 100%;
+  overflow-x: hidden;
 
   .title {
     height: 70px;

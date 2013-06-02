@@ -12,10 +12,10 @@ controllers.controller('AppCtrl', function ($scope, $rootScope, $timeout, $log, 
 controllers.controller('PrimaryNavCtrl', function ($scope, $rootScope, $routeParams, $timeout, $log, $http, DataModel) {
     $log.info('PriNavCtrl');
 
-    $rootScope.$on('$routeChangeStart',function(scope,next,current){
-        $log.info('$routeChangeStart');
-
-    })
+//    $rootScope.$on('$routeChangeStart',function(scope,next,current){
+//        $log.info('$routeChangeStart');
+//
+//    })
 
     $scope.dataModel = DataModel;
 
