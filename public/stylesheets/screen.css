@@ -257,7 +257,7 @@ body a:active, html a:active {
   text-decoration: none;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 ng-view {
   position: absolute;
   height: 100%;
@@ -265,7 +265,7 @@ ng-view {
   overflow: scroll;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .main {
   position: absolute;
   top: 0;
@@ -274,63 +274,63 @@ ng-view {
   left: 0;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .nav {
   position: absolute;
   margin-bottom: 0;
 }
-/* line 48, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .nav ul {
   list-style: none;
   margin: 0;
 }
-/* line 53, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .nav li {
   cursor: hand;
   cursor: pointer;
 }
-/* line 57, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .nav .divider {
   border-top: 1px solid #333;
 }
-/* line 61, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .nav a {
   display: block;
   color: #999;
   padding: 15px 25px;
 }
-/* line 67, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .nav a:hover {
   background: #333;
 }
-/* line 71, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .nav a.active {
   background: #3498db;
   color: #ffffff;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .pri-nav {
   width: 190px;
   background: #191818;
   bottom: 0;
   top: 0;
 }
-/* line 87, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .pri-nav .brand a {
   color: #fff;
   font-size: 15px;
 }
-/* line 93, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .pri-nav ul {
   margin: 0;
 }
-/* line 97, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .pri-nav li {
   list-style: none;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .sec-nav {
   border-left: 1px solid #ddd;
   background: #ecf0f1;
@@ -339,7 +339,27 @@ ng-view {
   bottom: 0;
   width: 235px;
 }
-/* line 114, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
+.sec-nav li {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
+}
+/* line 115, ../sass/screen.scss */
 .sec-nav .nav {
   margin: 0;
+}
+/* line 119, ../sass/screen.scss */
+.sec-nav a {
+  display: block;
+  color: #999;
+  padding: 15px 25px;
+}
+/* line 125, ../sass/screen.scss */
+.sec-nav a:hover {
+  background: #fff;
+}
+/* line 129, ../sass/screen.scss */
+.sec-nav a.active {
+  background: #3498db;
+  color: #ffffff;
 }
