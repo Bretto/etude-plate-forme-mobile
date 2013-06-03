@@ -110,9 +110,13 @@
     color: #777;
   }
 
+  .breath{
+    margin: 30px 0;
+  }
+
   a {
-    display: block;
-    margin-bottom: 25px;
+    //display: block;
+    //margin-bottom: 25px;
   }
 
   ul {
@@ -141,5 +145,6 @@
 
   blockquote {
     border-color: $peterriver;
+    margin: 30px 0;
   }
 }

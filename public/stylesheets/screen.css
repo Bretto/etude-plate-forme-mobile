@@ -215,30 +215,30 @@
   color: #777;
 }
 /* line 113, ../sass/page.scss */
-.page a {
-  display: block;
-  margin-bottom: 25px;
+.page .breath {
+  margin: 30px 0;
 }
-/* line 119, ../sass/page.scss */
+/* line 123, ../sass/page.scss */
 .page ul a {
   margin-bottom: 0;
 }
-/* line 125, ../sass/page.scss */
+/* line 129, ../sass/page.scss */
 .page table td, .page table th {
   text-align: center;
 }
-/* line 132, ../sass/page.scss */
+/* line 136, ../sass/page.scss */
 .page .possi .text-left {
   text-align: left;
 }
-/* line 136, ../sass/page.scss */
+/* line 140, ../sass/page.scss */
 .page .possi a {
   margin-bottom: 0;
   display: inline;
 }
-/* line 142, ../sass/page.scss */
+/* line 146, ../sass/page.scss */
 .page blockquote {
   border-color: #3498db;
+  margin: 30px 0;
 }
 
 /* line 6, ../sass/screen.scss */
