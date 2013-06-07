@@ -99,34 +99,35 @@
   margin-left: 190px;
   margin-right: 235px;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   height: 100%;
   overflow-x: hidden;
 }
-/* line 9, ../sass/page.scss */
+/* line 10, ../sass/page.scss */
 .page .title {
   height: 70px;
   border-bottom: 1px solid #ddd;
 }
-/* line 13, ../sass/page.scss */
+/* line 14, ../sass/page.scss */
 .page .title img {
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 20, ../sass/page.scss */
+/* line 21, ../sass/page.scss */
 .page .content {
   padding: 25px;
 }
-/* line 23, ../sass/page.scss */
+/* line 24, ../sass/page.scss */
 .page .content img {
   margin-right: 100px;
 }
-/* line 28, ../sass/page.scss */
+/* line 29, ../sass/page.scss */
 .page section {
   margin-bottom: 50px;
   padding-top: 25px;
 }
-/* line 33, ../sass/page.scss */
+/* line 34, ../sass/page.scss */
 .page .group {
   padding: 5px 25px 20px;
   -webkit-border-radius: 5px;
@@ -135,46 +136,46 @@
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 48, ../sass/page.scss */
+/* line 49, ../sass/page.scss */
 .page .model {
   background-color: rgba(241, 196, 15, 0.1);
   border: rgba(241, 196, 15, 0.2) solid 1px;
 }
-/* line 51, ../sass/page.scss */
+/* line 52, ../sass/page.scss */
 .page .model h2 {
   color: rgba(243, 156, 18, 0.5);
 }
-/* line 54, ../sass/page.scss */
+/* line 55, ../sass/page.scss */
 .page .model h3, .page .model h4 {
   color: #f39c12;
 }
-/* line 59, ../sass/page.scss */
+/* line 60, ../sass/page.scss */
 .page .view {
   background-color: rgba(52, 152, 219, 0.1);
   border: rgba(52, 152, 219, 0.2) solid 1px;
 }
-/* line 62, ../sass/page.scss */
+/* line 63, ../sass/page.scss */
 .page .view h2 {
   color: rgba(41, 128, 185, 0.5);
 }
-/* line 65, ../sass/page.scss */
+/* line 66, ../sass/page.scss */
 .page .view h3, .page .view h4 {
   color: #2980b9;
 }
-/* line 70, ../sass/page.scss */
+/* line 71, ../sass/page.scss */
 .page .controller {
   background-color: rgba(26, 188, 156, 0.1);
   border: rgba(26, 188, 156, 0.2) solid 1px;
 }
-/* line 73, ../sass/page.scss */
+/* line 74, ../sass/page.scss */
 .page .controller h2 {
   color: rgba(22, 160, 133, 0.5);
 }
-/* line 76, ../sass/page.scss */
+/* line 77, ../sass/page.scss */
 .page .controller h3, .page .controller h4 {
   color: #16a085;
 }
-/* line 81, ../sass/page.scss */
+/* line 82, ../sass/page.scss */
 .page .me {
   padding: 20px;
   -webkit-border-radius: 5px;
@@ -185,7 +186,7 @@
   background: rgba(26, 188, 156, 0.1);
   color: #16a085;
 }
-/* line 88, ../sass/page.scss */
+/* line 89, ../sass/page.scss */
 .page .todo {
   padding: 20px;
   -webkit-border-radius: 5px;
@@ -196,46 +197,46 @@
   background: rgba(231, 76, 60, 0.1);
   color: #c0392b;
 }
-/* line 95, ../sass/page.scss */
+/* line 96, ../sass/page.scss */
 .page h1 {
   margin: 0;
   padding: 12px 25px;
   color: #000000;
 }
-/* line 101, ../sass/page.scss */
+/* line 102, ../sass/page.scss */
 .page h2 {
   margin-bottom: 0;
 }
-/* line 105, ../sass/page.scss */
+/* line 106, ../sass/page.scss */
 .page h2, .page h3, .page h4 {
   color: #000;
 }
-/* line 109, ../sass/page.scss */
+/* line 110, ../sass/page.scss */
 .page p, .page li {
   color: #777;
 }
-/* line 113, ../sass/page.scss */
+/* line 114, ../sass/page.scss */
 .page .breath {
   margin: 30px 0;
 }
-/* line 123, ../sass/page.scss */
+/* line 124, ../sass/page.scss */
 .page ul a {
   margin-bottom: 0;
 }
-/* line 129, ../sass/page.scss */
+/* line 130, ../sass/page.scss */
 .page table td, .page table th {
   text-align: center;
 }
-/* line 136, ../sass/page.scss */
+/* line 137, ../sass/page.scss */
 .page .possi .text-left {
   text-align: left;
 }
-/* line 140, ../sass/page.scss */
+/* line 141, ../sass/page.scss */
 .page .possi a {
   margin-bottom: 0;
   display: inline;
 }
-/* line 146, ../sass/page.scss */
+/* line 147, ../sass/page.scss */
 .page blockquote {
   border-color: #3498db;
   margin: 30px 0;

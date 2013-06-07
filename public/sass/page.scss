@@ -3,6 +3,7 @@
   margin-left: $pri-nav-width;
   margin-right: $sec-nav-width;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   height: 100%;
   overflow-x: hidden;
 

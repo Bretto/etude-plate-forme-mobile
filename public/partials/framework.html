@@ -105,6 +105,31 @@
 
     <p>Install Driver on Windows 7 <a href="http://www.samsung.com/sg/support/model/GT-P3100TSEXSP-downloads" target="_blank">http://www.samsung.com/sg/support/model/GT-P3100TSEXSP-downloads</a></p>
 
+    <h4>Web Service SOAP</h4>
+    <ul>
+        <li>Start the WS in JDev: Run/ Start Server Instance </li>
+        <li>Create New Application: Custom App</li>
+        <li>Select Features: ADF Business Components</li>
+        <li>Select project module: Add ADF Components</li>
+        <li>Create a DB connection
+            <ul>
+                <li>User:axidemo</li>
+                <li>Psd:axidemo</li>
+                <li>Host Name: srv-db-axidemo.dev.appli-gestion.nc</li>
+                <li>Port: 42100</li>
+                <li>SID: DEVLIN</li>
+            </ul>
+        </li>
+        <li>Select Application Module > create Service Interface</li>
+        <li>Select Project and Create Deployment Profile</li>
+        <ul>
+            <li>Business Component Service Interface</li>
+        </ul>
+        <li>Select Application and Create Deployment Profile</li>
+        <li>Get Deployment URL from Deployment log add Application Module Config SI endpoint</li>
+
+
+    </ul>
 
 
 </section>
