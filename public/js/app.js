@@ -11,6 +11,8 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
             when('/reflection', {templateUrl:'partials/reflection.html'}).
             when('/deployment', {templateUrl:'partials/deployment.html', controller:'PageCtrl'}).
             when('/prototype', {templateUrl:'partials/prototype.html'}).
+            when('/admin', {templateUrl:'partials/admin.html'}).
+            when('/webservice', {templateUrl:'partials/webservice.html'}).
             otherwise({redirectTo:'/requirement'});
         $locationProvider.html5Mode(false);
     }]);
