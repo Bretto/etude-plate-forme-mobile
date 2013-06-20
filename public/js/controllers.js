@@ -17,6 +17,10 @@ controllers.controller('PrimaryNavCtrl', function ($scope, $rootScope, $routePar
 //
 //    })
 
+    $scope.onTestJson = function(){
+        $log.info('test');
+    }
+
     $scope.dataModel = DataModel;
 
 });
